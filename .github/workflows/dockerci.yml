@@ -31,4 +31,5 @@ jobs:
         with:
           context: ./pjr-constructions      # Docker context points to your app folder
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/pjr-constructions:latest
+          tags: chaithu33/pjr-constructions:latest
+
